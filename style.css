@@ -1,0 +1,326 @@
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+}
+body {
+  font-family: sans-serif;
+  display: flex;
+  justify-content: center;
+}
+.main {
+  width: 950px;
+  margin: 50px 0 50px 0;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  display: flex;
+  position: relative;
+  overflow: hidden;
+}
+/* left container */
+.left-container {
+  width: 280px;
+  background-color: #323535;
+  padding: 20px 0 0px 0;
+}
+/* image container */
+.image-container {
+  margin: 10px 0 10px 45px;
+  padding: 30px;
+  background-color: #f0c00f;
+  border-radius: 50% 0 0 50%;
+}
+img {
+  width: 150px;
+  height: 150px;
+  padding: 8px;
+  border-radius: 50%;
+}
+.divider {
+  width: 10px;
+  height: 1250px;
+  background-color: #f0c00f;
+  transform: translate(275px, -239px);
+  position: absolute;
+  display: block;
+}
+.left-info {
+  padding-top: 20px;
+}
+
+/* name and social information design */
+.name {
+  color: white;
+  padding: 70px 13px 50px 20px;
+  text-transform: uppercase;
+}
+.name h2 {
+  font-size: 28px;
+  letter-spacing: 1px;
+}
+.name h4 {
+  padding-top: 10px;
+  font-size: 12px;
+}
+.social {
+  display: flex;
+  padding: 10px 0 0 10px;
+}
+.social .side-image {
+  padding: 15px;
+}
+.social img:hover {
+  background-color: #f5d667;
+  border: none;
+}
+/* Contact information design */
+.contact {
+  padding-top: 20px;
+  color: white;
+}
+.contact h2 {
+  padding-left: 20px;
+  margin-bottom: 5px;
+  font-size: 19px;
+}
+.contact hr {
+  margin-left: 20px;
+  border: solid 2px #f0c00f;
+}
+.contact-info {
+  padding: 25px 0 25px 0;
+  margin-left: 20px;
+  font-size: 12px;
+}
+.contact-info p {
+  padding: 9px 0 9px 0;
+}
+/* Problem solving portion design */
+.problem-solving {
+  padding-top: 10px;
+  color: white;
+}
+.problem-solving h2 {
+  padding: 10px 0 0 20px;
+  margin-bottom: 5px;
+  font-size: 19px;
+}
+.problem-solving hr {
+  margin-left: 20px;
+  border: solid 2px #f0c00f;
+}
+.problem-box {
+  padding: 25px 0 10px 0;
+  margin-left: 20px;
+}
+.problem h4,
+p {
+  padding: 9px 0 9px 0;
+  font-size: 14px;
+}
+.problem p {
+  font-size: 12px;
+}
+/* Skill Section Design */
+.skills {
+  padding-top: 10px;
+  color: white;
+}
+.skills hr {
+  margin-left: 20px;
+  border: solid 2px #f0c00f;
+}
+.skills h2 {
+  padding: 20px 0 0 20px;
+  margin-bottom: 5px;
+  font-size: 19px;
+}
+.progress-div {
+  padding: 30px 20px 25px 20px;
+  margin: 10px 0 5px 0;
+  font-size: 15px;
+  display: flex;
+}
+.lebel {
+  margin: 0;
+  padding: 0;
+}
+.pro {
+  width: 180px;
+  margin-bottom: 20px;
+  padding-left: 8px;
+  padding-right: 10px;
+}
+.down {
+  margin-top: 20px;
+}
+.down hr {
+  margin-left: 20px;
+  border: solid 4px #f0c00f;
+}
+/* right container design starts from here */
+.right-container {
+  width: 580px;
+  color: #323535;
+  padding: 35px 20px 30px 45px;
+}
+/* About information Design */
+.about-me {
+  padding: 10px;
+}
+.about-me h2 {
+  font-size: 19px;
+}
+.about-me p {
+  text-align: justify;
+  padding-top: 20px;
+  color: #5e6161;
+}
+/* Side image and container for information design */
+.container {
+  display: flex;
+  margin-top: 15px;
+}
+.side-image {
+  padding-left: 10px;
+}
+.side-img {
+  height: 40px;
+  width: 40px;
+  background-color: #f0c00f;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.side-image img {
+  height: 20px;
+  width: 20px;
+}
+/* Education Section Design */
+.education-info {
+  width: 480px;
+  padding-left: 40px;
+}
+.education-info h2 {
+  font-size: 19px;
+}
+.hr {
+  padding: 10px 0 20px 0;
+  display: flex;
+}
+.hr hr:first-child {
+  border: solid 2px #f0c00f;
+  width: 120px;
+}
+.hr hr:last-child {
+  border: solid 2px #323535;
+  width: 360px;
+}
+
+.e-info {
+  padding-left: 10px;
+}
+.info h4 {
+  padding: 7px 0 7px 0;
+}
+.info p {
+  padding: 3px 0 3px 15px;
+}
+/* Project Section Design */
+.project-info {
+  width: 480px;
+  padding-left: 40px;
+}
+.project-info h2 {
+  font-size: 19px;
+}
+/* experience section design */
+.experience-info {
+  width: 480px;
+  padding-left: 40px;
+}
+
+/* Hobbies Section Design */
+.hobbies-info {
+  width: 480px;
+  padding-left: 40px;
+}
+.h-info h4 {
+  display: inline-block;
+  padding: 0 0 0 40px;
+}
+.animation {
+  width: 100px;
+  height: 100px;
+  margin-left: 50px;
+  border-radius: 50%;
+  background: #323535;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  animation: mymove 5s infinite;
+  transform: translateY(1000px);
+}
+.animation h2 {
+  color: #fff;
+}
+@keyframes mymove {
+  0% {
+    top: 0px;
+    background: #323535;
+    width: 100px;
+  }
+  100% {
+    top: 200px;
+    background: #f0c00f;
+    width: 100px;
+  }
+}
+
+/* media query for mobile responsiveness */
+@media only screen and (max-width: 600px) {
+  .main {
+    width: 90%;
+    margin: 20px 0;
+    box-shadow: none;
+    display: block;
+  }
+
+  .left-container {
+    width: 90%;
+    padding: 20px 0;
+  }
+
+  .image-container {
+    margin: 10px auto;
+  }
+
+  .divider {
+    display: none;
+  }
+
+  .right-container {
+    width: 90%;
+    margin: 20px;
+    padding: 20px 20px 0 0;
+  }
+
+  .education-info,
+  .project-info,
+  .experience-info,
+  .hobbies-info {
+    width: 100%;
+    padding-left: 0;
+  }
+
+  .hr hr:first-child {
+    width: 100%;
+    border: solid 2px #f0c00f;
+  }
+
+  .hr hr:last-child {
+    width: 100%;
+    border: solid 2px #323535;
+  }
+}
